@@ -18,8 +18,7 @@ public class Ex08 {
 				
 				for (int j = 0; j < i; j++) {
 					if (LottoNums[j] != random) { // 기존 배열에 n이 없다면 count + 1
-						count += 1; // 중복되면 굳이 끝까지 확인 안함
-						break;
+						count += 1;
 					}
 				}
 				
