@@ -5,19 +5,19 @@ public class Ex08 {
 	public static void main(String[] args) {
 		
 		int[] LottoNums = new int[6];
-		int random = 0;
+		int random;
 		int count;
 		
-		for (int i = 0; i < LottoNums.length; i++) {
-			count = 0;
+		
+		for (int i = 0; i < LottoNums.length; i++) { 
 			
-			while (true) {
-				random = (int)(Math.random()*45) + 1;
+			count = 0;
+			while (true) { 
+				random = (int)(Math.random()*45) + 1; 
 				
 				for (int j = 0; j < i; j++) {
-					if (LottoNums[j] != random) {
-						count += 1;
-					} else {
+					if (LottoNums[j] != random) { 
+						count += 1; 
 						break;
 					}
 				}

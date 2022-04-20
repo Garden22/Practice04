@@ -5,7 +5,7 @@ public class Ex08_1 {
 	public static void main(String[] args) {
 		
 		int[] LottoNums = new int[6];
-		int random = 0;
+		int random;
 		int count;
 		
 		
