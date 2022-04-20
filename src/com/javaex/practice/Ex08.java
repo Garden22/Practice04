@@ -12,6 +12,7 @@ public class Ex08 {
 		for (int i = 0; i < LottoNums.length; i++) { 
 			
 			count = 0;
+			
 			while (true) { 
 				random = (int)(Math.random()*45) + 1; 
 				
@@ -21,10 +22,12 @@ public class Ex08 {
 						break;
 					}
 				}
+				
 				if (count == i) {
 					break;
 				}
 			}
+			
 			LottoNums[i] = random;
 			System.out.print(random + " ");
 		}
