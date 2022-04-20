@@ -17,8 +17,7 @@ public class Ex08_1 {
 				
 				for (int j = 0; j < i; j++) {
 					if (LottoNums[j] != random) {
-						count += 1;
-						break;
+						count += 1;						
 					}
 				}
 			} while (count != 100 + i);
