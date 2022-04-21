@@ -19,9 +19,7 @@ public class Ex08 {
 				for (int j = 0; j < i; j++) {
 					if (LottoNums[j] != random) { // 기존 배열에 n이 없다면 count + 1
 						count += 1;
-					} else {
-						continue; // 겹치는 수가 나오면 굳이 끝까지 확인하지 않음
-					}
+					} 
 				}
 				
 				if (count == i) { // i-1까지의 수를 확인, index가 아니라 개수 체크이므로 +1
